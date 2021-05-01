@@ -1,0 +1,217 @@
+html {
+	background-color: #FFF9CA;
+	box-sizing: border-box; 
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+body .about {
+	/*max-width: 1040px;*/
+	/*max-height:;*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF9CA;
+}
+
+.navbar-expand-lg {
+	padding: 0;
+}
+
+#bannerpic {
+	filter: blur(2px);
+	height: 80vh;
+	width: 100%;
+	object-fit: cover;
+	margin-top: 56px;
+}
+
+#slogan {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 155px;
+  left: 15%;
+  width: 70%;
+}
+
+.slogan1{
+	color: white;
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.slogan2{
+	color: white;
+	font-size: 46px;
+		text-align: center;
+	text-shadow: 2px 2px 2px gray;
+	font-weight: normal;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+#bannerpic {
+	width: 100%;
+	height: auto;
+
+}
+
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+.about {
+	padding:90px 0;
+/*	background:linear-gradient(#ffffff,#F0E5DE); */
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	width: 100%;
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.productandservice {
+	background-color: #FFF0A0;
+	padding-bottom:70px;
+}
+.productandservice .section {
+	background-color: #FFFFFF;
+	padding: 16px 10px;
+	border: 1px solid #ABB2B9;
+	box-shadow:1px 1px 1.5px gray;
+	margin-bottom: 10px;
+}
+.productandservice img {
+	width:100%;
+	margin-bottom:16px;
+}
+
+.productandservice img:hover {
+	opacity: 0.6;
+}
+.ability-name {
+	padding: 10px;
+}
+
+.feedbacksfromuser {
+	background-color: #FFF9CA;
+	/*padding-bottom:70px;*/
+}
+
+.feedbacksfromuser img {
+	box-shadow:2px 2px 4px gray;
+	width: 100%;
+}
+
+/*聯絡表單*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-size: cover;
+	background-image: url(../img/pic5.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+	text-shadow: 2px 2px 2px gray;
+}
+
+.contact .title_line {
+	color: #FFFFFF;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 3px inset #ABB2B9;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 3px inset #ABB2B9;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7px 0;
+}
+
+input[type=submit] {
+  background-color: #2EC041;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+/*footer*/
+footer {
+	background-color: #FFC032;
+	padding:20px 0; 
+}
+
+.footer p {
+	line-height: 39px;
+}
+
+#exampleModal img{
+	width: 100%;
+}
+
